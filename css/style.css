@@ -36,3 +36,27 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+.min{
+    margin-top: 45%;
+    font-size: 1.1em;
+    margin-left: 9%;
+    letter-spacing: 0.2em;
+    opacity: 0.7;
+}
+.welcome {
+    font-size: 3em;
+    margin-left: 5%;
+    letter-spacing: 0.4em;
+    display: inline;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.buttons{ 
+    margin-left: 450px;
+}
+.button {
+    border: 2px rgba(19, 19, 19, 0.342) solid;
+    color: rgba(43, 42, 42, 0.836);
+    padding: 10px;
+    margin-left: 30px;
+}
