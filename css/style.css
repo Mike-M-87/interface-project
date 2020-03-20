@@ -1,4 +1,8 @@
-
+body {
+    background-image: url(../image/h1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1280px 600px;
+}
 .modern {
     float:  left;
     margin:2%;
