@@ -2,6 +2,7 @@ body {
     background-image: url(../image/h1.jpg);
     background-repeat: no-repeat;
     background-size: 1280px 600px;
+    font-family: 'Baloo 2', cursive;
 }
 .modern {
     float:  left;
@@ -38,9 +39,9 @@ li a {
 }
 .min{
     margin-top: 45%;
-    font-size: 1.1em;
-    margin-left: 9%;
-    letter-spacing: 0.2em;
+    font-size: 1.2em;
+    margin-left: 10%;
+    letter-spacing: 0.3em;
     opacity: 0.7;
 }
 .welcome {
@@ -59,4 +60,23 @@ li a {
     color: rgba(43, 42, 42, 0.836);
     padding: 10px;
     margin-left: 30px;
+}
+#about {
+    margin-top: 25%;
+    margin-left: 245px;
+}
+#about img {
+    width: 5vw;
+    height: 5vh;
+}
+#about2 {
+    margin-left: 19%;
+    margin-top: 2%;
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+#about3 {
+    text-align: center;
+    font-size: 0.7em;
+    margin-left: 7%;
 }
