@@ -1,0 +1,32 @@
+.modern {
+    float:  left;
+    margin:2%;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    font-weight: bold;
+}
+nav {
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:transparent;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
