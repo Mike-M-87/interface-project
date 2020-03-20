@@ -1,11 +1,13 @@
+
 .modern {
     float:  left;
     margin:2%;
-    border-top: 2px black solid;
-    border-bottom: 2px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
     font-family: 'Amatic SC', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 2em;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.3em;
     font-weight: bold;
 }
 nav {
@@ -25,7 +27,7 @@ li {
   
 li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.438);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
