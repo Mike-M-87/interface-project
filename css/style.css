@@ -19,10 +19,11 @@ nav {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: center;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 15%;
 }
 .min{
-    margin-top: 20%;
+    margin-top:20% ;
     font-size: 1.1em;
     letter-spacing: 0.5em;
     opacity: 0.6;
@@ -36,11 +37,12 @@ nav {
 .button {
     border: 2px rgba(19, 19, 19, 0.342) solid;
     color: rgba(43, 42, 42, 0.836);
-    padding: 10px;
+    padding: 1.2%;
 }
 #about {
     text-align: center;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.534);
 }
 #about img {
     width: 20px;
@@ -49,10 +51,28 @@ nav {
 #about .p2 {
     font-weight: bold;
 }
-
+#four {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.664);
+    background-color: rgba(128, 128, 128, 0.212);
+    height: auto;
+    padding-top: 9%;
+    padding-bottom: 7%;
+    padding-left: 4%; 
+}
+#four .heading {
+    font-size: 2em;
+    padding-left: 1.5%;
+}
+#four img {
+    width: 40%;
+    height: 100%;
+}    
 @media screen and (max-width:1100px) {
     #home   {
-        background-size: auto;
+        height: auto;
+        background-size: auto;     
+        width: auto; 
     }
     .welcome {
         font-size: 2em;
@@ -63,15 +83,20 @@ nav {
         letter-spacing: normal;
 
     }
-    .buttons{ 
-        text-align: center;
-        margin: 0;
-    }
     .button {
-        border: 2px rgba(19, 19, 19, 0.342) solid;
-        color: rgba(43, 42, 42, 0.836);
-        padding: 0;
-        margin: 0;
+        padding: 1%;
+    }#four {
+        font-size: 0.9em;
+        padding-left: 3%; 
     }
+    #four .heading {
+        font-size: 1.5em;
+        padding-left: 1.5%;
+    }
+    #four img {
+        width: 40%;
+        height: 100%;
+    }
+
     
 }
