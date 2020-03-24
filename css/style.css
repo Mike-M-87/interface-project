@@ -39,34 +39,27 @@ nav {
     padding: 10px;
 }
 #about {
-    margin-left: 20%;
+    text-align: center;
+    font-size: 0.6em;
 }
 #about img {
-    width: 5vw;
-    height: 5vh;
+    width: 20px;
+    height: 20px;
 }
-#about2 {
-    margin-left: 19%;
-    margin-top: 2%;
-    font-size: 0.8em;
-    font-weight: bolder;
-}
-#about3 {
-    text-align: center;
-    font-size: 0.7em;
-    margin-left: 7%;
+#about .p2 {
+    font-weight: bold;
 }
 
 @media screen and (max-width:1100px) {
     #home   {
-        background-size: 100% 60vh;
+        background-size: auto;
     }
     .welcome {
-        font-size: 1.5em;
+        font-size: 2em;
         letter-spacing: normal;
     }
     .min{
-        font-size: 0.9em;
+        font-size: 1em;
         letter-spacing: normal;
 
     }
@@ -79,9 +72,6 @@ nav {
         color: rgba(43, 42, 42, 0.836);
         padding: 0;
         margin: 0;
-    }
-    #about img {
-        margin: 5%;
     }
     
 }
