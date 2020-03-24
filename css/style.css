@@ -84,6 +84,8 @@ nav {
     height: 100%;
 }
 
+
+
 @media screen and (max-width:1100px) {
     #home   {
         height: auto;
