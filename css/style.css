@@ -1,16 +1,12 @@
-body {
-    background-image: url(../image/h1.jpg);
-    background-repeat: no-repeat;
-    background-size: 1280px 600px;
+body {  
     font-family: 'Baloo 2', cursive;
 }
 .modern {
     float:  left;
-    margin:2%;
+    margin: 2%;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
     font-family: 'Amatic SC', cursive;
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 2em;
     letter-spacing: 0.3em;
     font-weight: bold;
@@ -18,52 +14,32 @@ body {
 nav {
     float: right;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:transparent;
-}
-  
-li {
-    float: right;
-}
-  
-li a {
-    display: block;
-    color: rgba(0, 0, 0, 0.438);
+#home {
+    background-image: url(../image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    height: 100vh;
 }
 .min{
-    margin-top: 45%;
-    font-size: 1.2em;
-    margin-left: 10%;
-    letter-spacing: 0.3em;
-    opacity: 0.7;
+    margin-top: 20%;
+    font-size: 1.1em;
+    letter-spacing: 0.5em;
+    opacity: 0.6;
 }
 .welcome {
-    font-size: 3em;
-    margin-left: 5%;
-    letter-spacing: 0.4em;
-    display: inline;
+    font-size: 2.5em;
+    letter-spacing: 0.5em;
     font-family: 'Amatic SC', cursive;
     font-family: 'Josefin Sans', sans-serif;
-}
-.buttons{ 
-    margin-left: 450px;
 }
 .button {
     border: 2px rgba(19, 19, 19, 0.342) solid;
     color: rgba(43, 42, 42, 0.836);
     padding: 10px;
-    margin-left: 30px;
 }
 #about {
-    margin-top: 25%;
-    margin-left: 245px;
+    margin-left: 20%;
 }
 #about img {
     width: 5vw;
@@ -79,4 +55,44 @@ li a {
     text-align: center;
     font-size: 0.7em;
     margin-left: 7%;
+}
+
+@media screen and (max-width:1100px) {
+    #home   {
+        background-size: 100% 60vh;
+    }
+    .welcome {
+        font-size: 1.5em;
+        letter-spacing: normal;
+    }
+    .min{
+        font-size: 0.9em;
+        letter-spacing: normal;
+
+    }
+    .buttons{ 
+        text-align: center;
+        margin: 0;
+    }
+    .button {
+        border: 2px rgba(19, 19, 19, 0.342) solid;
+        color: rgba(43, 42, 42, 0.836);
+        padding: 0;
+        margin: 0;
+    }
+    #about img {
+        margin: 5%;
+    }
+    #five {
+        height: 100%;
+    }
+    #five img {
+        width: 40%;
+        height: 50%;
+        padding: 3%;
+    }
+    #six img {
+        width: 45%;
+        height: 50%;
+    }
 }
