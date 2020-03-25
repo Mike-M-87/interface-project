@@ -122,8 +122,8 @@ nav {
     background-image: url(../image/bg4.jpg);
     background-repeat: no-repeat;
     height: 100vh;
-    width: auto;
-    background-size: 100%;
+    background-size: auto ;
+    padding-bottom: 10%;
     color: rgba(0, 0, 0, 0.664);
 }
 .work2 {
@@ -169,6 +169,17 @@ nav {
     }#four {
         font-size: 0.9em;
         padding-left: 3%; 
+    }
+    #work {
+        height: 50vh;
+    }
+    .work2 {
+        font-size: 0.7em;
+        padding: 2%;
+        margin-top: 1%;
+    }
+    .head {
+        font-size: 0.9em;
     }
    
 }
